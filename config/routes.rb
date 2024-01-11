@@ -13,4 +13,5 @@ Rails.application.routes.draw do
   get "/home", to: "home#index"
 
   get "/data", to: 'data#index'
+  get "/data/:id", to: 'data#show'
 end

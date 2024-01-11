@@ -1,8 +1,10 @@
-<h1>Data#index</h1>
+<h1>Data List</h1>
 <ul>
   <% @data.each do |data| %>
     <li>
-      <%= data.name %>
+    <a href="/data/<%= data.id %>">
+        <%= data.name %>
+    </a>
     </li>
     <li>
         <%= data.url %>
