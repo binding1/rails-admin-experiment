@@ -2,7 +2,7 @@
 <ul>
   <% @data.each do |data| %>
     <li>
-        <%= link_to data.name, controller: "data", action: "show", id: data.id %>
+        <%= link_to data.name, data %>
     </a>
     </li>
     <li>
