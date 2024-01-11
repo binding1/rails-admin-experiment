@@ -5,20 +5,36 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+- Ruby version
 
-* System dependencies
+- System dependencies
 
-* Configuration
+- Configuration
 
-* Database creation
+- Database creation
 
-* Database initialization
+- Database initialization
 
-* How to run the test suite
+- How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+- Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+- Deployment instructions
 
-* ...
+- ...
+
+## Dependencies
+
+- Ruby 3.0.6
+- Rails 7.1.2
+
+## Getting Started
+
+Run the following command in your Terminal
+
+`bundle install`
+`rails g rails_admin:install --asset=sprockets`
+
+To start the application, run:
+
+`rails s`
