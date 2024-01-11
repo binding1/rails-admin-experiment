@@ -2,8 +2,7 @@
 <ul>
   <% @data.each do |data| %>
     <li>
-    <a href="/data/<%= data.id %>">
-        <%= data.name %>
+        <%= link_to data.name, controller: "data", action: "show", id: data.id %>
     </a>
     </li>
     <li>
