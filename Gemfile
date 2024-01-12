@@ -46,6 +46,8 @@ gem "bootsnap", require: false
 
 # Rails-admin engine for managing data for adminstrators
 gem 'rails_admin', '~> 3.0'
+gem 'rails_admin-i18n'
+gem "rails_admin_import", "~> 3.0"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
@@ -71,5 +73,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
-gem "cssbundling-rails"
 gem "sassc-rails"
+gem "cssbundling-rails"

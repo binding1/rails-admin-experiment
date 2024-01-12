@@ -38,3 +38,7 @@ Run the following command in your Terminal
 To start the application, run:
 
 `rails s`
+
+If you're having issues with stylesheet imports, run the following:
+
+`RAILS_ENV=production rails assets:precompile`
