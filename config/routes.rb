@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :posts
+  resources :data  
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
@@ -10,5 +11,5 @@ Rails.application.routes.draw do
   root "home#index"
 
   get "/home", to: "home#index"
-  resources :data  
+  
 end
